@@ -115,6 +115,10 @@ ul.nav li a {
   text-align: center;
 }
 
+.roundbutton {
+  text-align: center;
+}
+
 .hero {
   font-family: 'Roboto Slab', sans-serif;
   color: white;
