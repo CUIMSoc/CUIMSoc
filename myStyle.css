@@ -224,7 +224,7 @@ h1.hero:after {
   text-align: left;
 }
 
-.col .icon.roundbutton {
+.col .icon.material-icons {
   border-radius: 50%;
   height: 85px;
   width: 85px;
@@ -234,7 +234,7 @@ h1.hero:after {
   transition: background 0.25s linear, color 0.25s linear;
 }
 
-.col .icon.side.roundbutton {
+.col .icon.side.material-icons {
   position: absolute;
   padding: 0;
   margin: 0;
@@ -243,12 +243,12 @@ h1.hero:after {
   width: 50px;n
 }
 
-.col:hover > .icon.roundbutton {
+.col:hover > .icon.material-icons {
   background: #F44336;
   color: white;
 }
 
-.col:hover > .icon.side.roundbutton {
+.col:hover > .icon.side.material-icons {
   background: initial;
   color: initial;
 }
