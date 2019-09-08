@@ -115,16 +115,12 @@ ul.nav li a {
   text-align: center;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
+
 .material-icons.md-96 { 
   font-size: 96px; 
 }
 
-=======
->>>>>>> parent of b7e2fcc... icons now hover properly
-=======
->>>>>>> parent of b7e2fcc... icons now hover properly
+
 .hero {
   font-family: 'Roboto Slab', sans-serif;
   color: white;
@@ -230,15 +226,9 @@ h1.hero:after {
   text-align: left;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.col .icon.roundbutton {
-=======
+
 .col .icon {
->>>>>>> parent of b7e2fcc... icons now hover properly
-=======
-.col .icon {
->>>>>>> parent of b7e2fcc... icons now hover properly
+
   border-radius: 50%;
   height: 85px;
   width: 85px;
@@ -248,15 +238,9 @@ h1.hero:after {
   transition: background 0.25s linear, color 0.25s linear;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.col .icon.side.roundbutton {
-=======
+
 .col .icon.side {
->>>>>>> parent of b7e2fcc... icons now hover properly
-=======
-.col .icon.side {
->>>>>>> parent of b7e2fcc... icons now hover properly
+
   position: absolute;
   padding: 0;
   margin: 0;
@@ -265,28 +249,16 @@ h1.hero:after {
   width: 50px;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.col:hover > .icon.roundbutton {
-=======
+
 .col:hover > .icon {
->>>>>>> parent of b7e2fcc... icons now hover properly
-=======
-.col:hover > .icon {
->>>>>>> parent of b7e2fcc... icons now hover properly
+
   background: #F44336;
   color: white;
 }
 
-<<<<<<< HEAD
-<<<<<<< HEAD
-.col:hover > .icon.side.roundbutton {
-=======
+
 .col:hover > .icon.side {
->>>>>>> parent of b7e2fcc... icons now hover properly
-=======
-.col:hover > .icon.side {
->>>>>>> parent of b7e2fcc... icons now hover properly
+
   background: initial;
   color: initial;
 }
