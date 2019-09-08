@@ -226,7 +226,6 @@ h1.hero:after {
   height: 85px;
   width: 85px;
   line-height: 85px;
-  text-align: center;
   margin: 0 auto;
   transition: background 0.25s linear, color 0.25s linear;
   vertical-align: text-bottom;
