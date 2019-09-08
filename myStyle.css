@@ -116,10 +116,13 @@ ul.nav li a {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .material-icons.md-96 { 
   font-size: 96px; 
 }
 
+=======
+>>>>>>> parent of b7e2fcc... icons now hover properly
 =======
 >>>>>>> parent of b7e2fcc... icons now hover properly
 .hero {
@@ -228,7 +231,11 @@ h1.hero:after {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .col .icon.roundbutton {
+=======
+.col .icon {
+>>>>>>> parent of b7e2fcc... icons now hover properly
 =======
 .col .icon {
 >>>>>>> parent of b7e2fcc... icons now hover properly
@@ -242,7 +249,11 @@ h1.hero:after {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .col .icon.side.roundbutton {
+=======
+.col .icon.side {
+>>>>>>> parent of b7e2fcc... icons now hover properly
 =======
 .col .icon.side {
 >>>>>>> parent of b7e2fcc... icons now hover properly
@@ -255,7 +266,11 @@ h1.hero:after {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .col:hover > .icon.roundbutton {
+=======
+.col:hover > .icon {
+>>>>>>> parent of b7e2fcc... icons now hover properly
 =======
 .col:hover > .icon {
 >>>>>>> parent of b7e2fcc... icons now hover properly
@@ -264,7 +279,11 @@ h1.hero:after {
 }
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 .col:hover > .icon.side.roundbutton {
+=======
+.col:hover > .icon.side {
+>>>>>>> parent of b7e2fcc... icons now hover properly
 =======
 .col:hover > .icon.side {
 >>>>>>> parent of b7e2fcc... icons now hover properly
