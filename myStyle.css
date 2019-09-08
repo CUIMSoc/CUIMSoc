@@ -4,10 +4,10 @@
   Andrew Tunecliffe, 2015
   http://atunnecliffe.com
 */
-
+/* uncomment to see outlines of stuff when you hover *-/
 :hover {
   background:rgba(0, 0, 0, 0.1);
-}
+}/**/
 
 html,
 body {
@@ -115,10 +115,13 @@ ul.nav li a {
   text-align: center;
 }
 
+<<<<<<< HEAD
 .material-icons.md-96 { 
   font-size: 96px; 
 }
 
+=======
+>>>>>>> parent of b7e2fcc... icons now hover properly
 .hero {
   font-family: 'Roboto Slab', sans-serif;
   color: white;
@@ -224,7 +227,11 @@ h1.hero:after {
   text-align: left;
 }
 
+<<<<<<< HEAD
 .col .icon.roundbutton {
+=======
+.col .icon {
+>>>>>>> parent of b7e2fcc... icons now hover properly
   border-radius: 50%;
   height: 85px;
   width: 85px;
@@ -234,21 +241,33 @@ h1.hero:after {
   transition: background 0.25s linear, color 0.25s linear;
 }
 
+<<<<<<< HEAD
 .col .icon.side.roundbutton {
+=======
+.col .icon.side {
+>>>>>>> parent of b7e2fcc... icons now hover properly
   position: absolute;
   padding: 0;
   margin: 0;
   top: -15px;
   height: 50px;
-  width: 50px;n
+  width: 50px;
 }
 
+<<<<<<< HEAD
 .col:hover > .icon.roundbutton {
+=======
+.col:hover > .icon {
+>>>>>>> parent of b7e2fcc... icons now hover properly
   background: #F44336;
   color: white;
 }
 
+<<<<<<< HEAD
 .col:hover > .icon.side.roundbutton {
+=======
+.col:hover > .icon.side {
+>>>>>>> parent of b7e2fcc... icons now hover properly
   background: initial;
   color: initial;
 }
