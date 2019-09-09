@@ -3,7 +3,7 @@
 
     $('.sidenav').sidenav();
     $('.parallax').parallax();
-  	$('#textarea1').val('New Text');
+  	$('#textarea1').val('');
   	$('#textarea1').trigger('autoresize');
     $('.slider').slider({
     	height: 600,
