@@ -5,8 +5,8 @@ nav ul a{
 }
 nav .brand-logo img{
   color: #444;
-  height: auto;
-  width: auto;
+  height: 10%;
+  width: 10%;
   max-height: 64px;
   max-width: 64px;
 }
