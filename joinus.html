@@ -54,7 +54,7 @@
         <div class="col s12 center">
           <h3><i class="mdi-content-send brown-text"></i></h3>
           <h4>Keep in touch</h4>
-          <p class="left-align light">We recruit analysts in Michaelmas following a two-stage interview process. Applications are competitive and are reviewed on a rolling basis. Please leave your details below if you want to sign up for our newsletter to hear about upcoming opportunities and events.</p>
+          <p class="left-align light">We recruit analysts in Michaelmas following a two-stage interview process. Applications are competitive and are reviewed on a rolling basis. Please leave your details below if you want to sign up for our newsletter to hear about upcoming opportunities and events or just want to get in touch.</p>
         </div>
       </div>
 
@@ -93,10 +93,10 @@
     <div class="section">
 
 <div class="row">
-    <form class="col s12 newsletterform">
+    <form class="col s12" method="post" action="joinus.php">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="First Name" id="first_name" type="text" class="validate">
+          <input placeholder="First Name" id="first_name" type="text" class="validate" name="sender">
           <label for="first_name"></label>
         </div>
         <div class="input-field col s6">
@@ -107,10 +107,18 @@
 
       <div class="row">
         <div class="input-field col s12">
-          <input id="email" type="email" class="validate">
+          <input id="email" type="email" class="validate" name="senderEmail">
           <label for="email">Email</label>
         </div>
       </div>
+
+     <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+      <input type="submit" name="submit">
     </form>
   </div>
         
