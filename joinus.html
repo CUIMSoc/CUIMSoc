@@ -93,14 +93,14 @@
     <div class="section">
 
 <div class="row">
-    <form class="col s12" method="post" action="joinus.php">
+    <form class="col s12" name="input" method="POST" action="https://formspree.io/cuimsociety@gmail.com">
       <div class="row">
         <div class="input-field col s6">
-          <input placeholder="First Name" id="first_name" type="text" class="validate" name="sender">
+          <input placeholder="First Name" id="first_name" type="text" class="validate" name="First Name">
           <label for="first_name"></label>
         </div>
         <div class="input-field col s6">
-          <input id="last_name" type="text" class="validate">
+          <input id="last_name" type="text" class="validate" name="Last Name">
           <label for="last_name">Last Name</label>
         </div>
       </div>
@@ -118,7 +118,9 @@
           <label for="textarea1">Message</label>
         </div>
       </div>
-      <input type="submit" name="submit">
+      <input class="btn btn-primary" type="submit" value="Submit">
+      <input type=”hidden” name=”_next” value=”thankyou.html” />
+
     </form>
   </div>
         
