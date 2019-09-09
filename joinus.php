@@ -1,3 +1,21 @@
+<?php
+
+if($_POST["submit"]) {
+    $recipient="cuimsociety@gmail.com";
+    $subject="CUIMS Message";
+    $sender=$_POST["sender"];
+    $senderEmail=$_POST["senderEmail"];
+    $message=$_POST["message"];
+
+    $mailBody="Name: $sender\nEmail: $senderEmail\n\n$message";
+
+    mail($recipient, $subject, $mailBody, "From: $sender <$senderEmail>");
+
+    $thankYou="<p>Thank you! Your message has been sent.</p>";
+}
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -39,9 +57,7 @@
         <div class="row center">
           <h5 class="header col s12 light">The UK's largest undergraduate-run investment fund</h5>
         </div>
-        <div class="row center">
-          <a href="learnmore.html" id="download-button" class="btn-large waves-effect waves-light indigo darken-3">Learn More</a>
-        </div>
+
         <br><br>
 
       </div>
@@ -51,33 +67,14 @@
 
  <div class="container">
     <div class="section">
-      <h4 style="text-align: center;">Our Team</h4>
-       <div class="slider">
-    <ul class="slides">
-      <li>
-        <img src="https://media.licdn.com/dms/image/C5603AQFH3jOvJYCWqg/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=0BGc6kaSCf3_xL8uTXAopCTQim5tA81PbcMRL464vFM" > <!-- random image -->
-        <div class="caption center-align">
-          <h3>President</h3>
-          <h5 class="light grey-text text-lighten-3">Abhinav Heble</h5>
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4>Keep in touch</h4>
+          <p class="left-align light">We recruit analysts in Michaelmas following a two-stage interview process. Applications are competitive and are reviewed on a rolling basis. Please leave your details below if you want to sign up for our newsletter to hear about upcoming opportunities and events or just want to get in touch.</p>
         </div>
-      </li>
-      <li>
-        <img src="CUIMS-akash.jpg" > <!-- random image -->
-        <div class="caption right-align">
-          <h3>Vice-President</h3>
-          <h5 class="light grey-text text-lighten-3">Akash Lakshmi Narasimha</h5>
-        </div>
-      </li>
-      <li>
-        <img src="https://media.licdn.com/dms/image/C5103AQHWh3BMJOHtwA/profile-displayphoto-shrink_800_800/0?e=1573689600&v=beta&t=vxG__wcNa_dUOeaKFMx4R_TCPf4mf37zXh-mAsAI-TM" > <!-- random image -->
-        <div class="caption left-align">
-          <h3>Secretary</h3>
-          <h5 class="grey-text text-darken-3">Saket Koti</h5>
-        </div>
-      </li>
-    </ul>
-  </div>
-      
+      </div>
 
     </div>
   </div>
@@ -85,7 +82,70 @@
  
 
 
- 
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light black-text"></h5>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+ <div class="container">
+    <div class="section">
+
+      <div class="row">
+        <div class="col s12 center">
+          <h3><i class="mdi-content-send brown-text"></i></h3>
+          <h4></h4>
+          <p class="left-align light"></p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="container">
+    <div class="section">
+
+<div class="row">
+  <?php =$thankYou ?>
+    <form class="col s12" method="post" action="joinus.php">
+      <div class="row">
+        <div class="input-field col s6">
+          <input placeholder="First Name" id="first_name" type="text" class="validate" name="sender">
+          <label for="first_name"></label>
+        </div>
+        <div class="input-field col s6">
+          <input id="last_name" type="text" class="validate">
+          <label for="last_name">Last Name</label>
+        </div>
+      </div>
+
+      <div class="row">
+        <div class="input-field col s12">
+          <input id="email" type="email" class="validate" name="senderEmail">
+          <label for="email">Email</label>
+        </div>
+      </div>
+
+     <div class="row">
+        <div class="input-field col s12">
+          <textarea id="textarea1" class="materialize-textarea" name="message"></textarea>
+          <label for="textarea1">Message</label>
+        </div>
+      </div>
+      <input type="submit" name="submit">
+    </form>
+  </div>
+        
+
+
+    </div>
+  </div>
+
   <footer class="page-footer indigo darken-3">
     <div class="container">
       <div class="row">
