@@ -5,8 +5,8 @@
     $('.parallax').parallax();
       $(document).ready(function(){
     $('.slider').slider({
-    	height: 800,
-    	duration: 2000
+    	//height: 800,
+    	//duration: 2000
     });
 
   });
