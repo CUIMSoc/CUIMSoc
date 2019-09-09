@@ -4,8 +4,9 @@
     $('.sidenav').sidenav();
     $('.parallax').parallax();
     $('.slider').slider({
-    	height: 800,
-    	duration: 2000
+    	height: 600,
+    	duration: 500,
+    	interval: 2000
     }
     );
 
